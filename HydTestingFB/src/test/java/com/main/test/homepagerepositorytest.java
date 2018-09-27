@@ -15,23 +15,18 @@ public class homepagerepositorytest extends parentclass {
 	public homepagerepositorytest()
 	{
 		super();
-		
+		browserlaunch();
 	}
 	
-    @BeforeMethod
-    public void startTest()
-    {
-    	browserlaunch();
-    }
-    
-    @Test(priority=1)
+   
+    @BeforeMethod 
 	public void loginfn()
 	{
 	    t=new homepagerepository();
 		t.loginfunction(p.getProperty("user"), p.getProperty("pass"));
 	}
 	
-    @Test(priority=2)
+    @Test(priority=1)
     public void gettitle()
     {
     String title=t.getpagetitle();
