@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="134608" started-at="2018-09-26T16:47:37Z" finished-at="2018-09-26T16:49:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="134608" started-at="2018-09-26T16:47:37Z" finished-at="2018-09-26T16:49:51Z">
+      <class name="com.main.test.homepagerepositorytest">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.main.test.homepagerepositorytest@42d80b78]" name="startTest" is-config="true" duration-ms="90881" started-at="2018-09-26T22:17:37Z" finished-at="2018-09-26T22:19:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="loginfn()[pri:1, instance:com.main.test.homepagerepositorytest@42d80b78]" name="loginfn" duration-ms="192" started-at="2018-09-26T22:19:08Z" finished-at="2018-09-26T22:19:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginfn -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.main.test.homepagerepositorytest@42d80b78]" name="endTest" is-config="true" duration-ms="2028" started-at="2018-09-26T22:19:08Z" finished-at="2018-09-26T22:19:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.main.test.homepagerepositorytest@42d80b78]" name="startTest" is-config="true" duration-ms="39134" started-at="2018-09-26T22:19:10Z" finished-at="2018-09-26T22:19:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="gettitle()[pri:2, instance:com.main.test.homepagerepositorytest@42d80b78]" name="gettitle" duration-ms="32" started-at="2018-09-26T22:19:49Z" finished-at="2018-09-26T22:19:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettitle -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.main.test.homepagerepositorytest@42d80b78]" name="endTest" is-config="true" duration-ms="2325" started-at="2018-09-26T22:19:49Z" finished-at="2018-09-26T22:19:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.main.test.homepagerepositorytest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
