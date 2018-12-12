@@ -33,7 +33,7 @@ public class homeloginrepository extends BaseClass {
 	{
 	username.sendKeys(username1);
 	password.sendKeys(password1);
-   	
+    enter.click();	
 	}
 	
 }
