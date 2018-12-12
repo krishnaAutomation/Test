@@ -36,7 +36,6 @@ public class test extends BaseClass {
 	@AfterMethod
 	public void endTest() throws InterruptedException
 	{
-		Thread.sleep(5000);
 		driver.close();
 	}
 	
