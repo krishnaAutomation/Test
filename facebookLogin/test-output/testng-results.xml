@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="14152" started-at="2018-12-12T17:06:40Z" finished-at="2018-12-12T17:06:55Z">
+  <suite name="Suite" duration-ms="14335" started-at="2018-12-12T17:23:28Z" finished-at="2018-12-12T17:23:42Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="14152" started-at="2018-12-12T17:06:40Z" finished-at="2018-12-12T17:06:55Z">
+    <test name="Test" duration-ms="14335" started-at="2018-12-12T17:23:28Z" finished-at="2018-12-12T17:23:42Z">
       <class name="com.facebook.test.test">
-        <test-method status="PASS" signature="loginfn()[pri:0, instance:com.facebook.test.test@229c6181]" name="loginfn" is-config="true" duration-ms="1931" started-at="2018-12-12T22:36:40Z" finished-at="2018-12-12T22:36:42Z">
+        <test-method status="PASS" signature="loginfn()[pri:0, instance:com.facebook.test.test@229c6181]" name="loginfn" is-config="true" duration-ms="4333" started-at="2018-12-12T22:53:28Z" finished-at="2018-12-12T22:53:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginfn -->
-        <test-method status="FAIL" signature="gettitle()[pri:1, instance:com.facebook.test.test@229c6181]" name="gettitle" duration-ms="151" started-at="2018-12-12T22:36:42Z" finished-at="2018-12-12T22:36:42Z">
+        <test-method status="FAIL" signature="gettitle()[pri:1, instance:com.facebook.test.test@229c6181]" name="gettitle" duration-ms="354" started-at="2018-12-12T22:53:32Z" finished-at="2018-12-12T22:53:33Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Facebook – log in or sign up] but found [Log in to Facebook | Facebook]]]>
@@ -56,7 +56,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gettitle -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.facebook.test.test@229c6181]" name="endTest" is-config="true" duration-ms="11380" started-at="2018-12-12T22:36:43Z" finished-at="2018-12-12T22:36:55Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.facebook.test.test@229c6181]" name="endTest" is-config="true" duration-ms="9520" started-at="2018-12-12T22:53:33Z" finished-at="2018-12-12T22:53:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
