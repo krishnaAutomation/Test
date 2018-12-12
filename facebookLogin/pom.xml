@@ -55,6 +55,10 @@
            			<suiteXmlFile>testng.xml</suiteXmlFile>
            			<!-- <suiteXmlFile>src/main/resources/testng.xml</suiteXmlFile> -->
            		</suiteXmlFiles>
+           		
+         
+<forkMode>never</forkMode>
+           		
            	</configuration>
   		</plugin>
   	</plugins>  

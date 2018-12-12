@@ -7,9 +7,7 @@ import org.testng.annotations.Test;
 import com.facebook.main.BaseClass;
 import com.facebook.main.homeloginrepository;
 
-
 public class test extends BaseClass {
-
 	
     test() throws IOException {
 		super();
