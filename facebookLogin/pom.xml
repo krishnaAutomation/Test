@@ -15,15 +15,7 @@
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-    
-    
-    
+   
     
      <dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -55,10 +47,7 @@
            			<suiteXmlFile>testng.xml</suiteXmlFile>
            			<!-- <suiteXmlFile>src/main/resources/testng.xml</suiteXmlFile> -->
            		</suiteXmlFiles>
-           		
-         
-<forkMode>never</forkMode>
-           		
+          	
            	</configuration>
   		</plugin>
   	</plugins>  
